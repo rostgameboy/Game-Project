@@ -14,7 +14,7 @@ a{
 .background{
     background-image: url(gamepad.png);
     background-repeat: no-repeat;
-    background-position: right 150px top;
+    background-position: right 100px top;
 }
 header{
     display: flex;
