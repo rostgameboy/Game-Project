@@ -1,8 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     color: white;
     font-family: 'Poppins', sans-serif;
     background-color: rgba(57, 40, 159, 1);
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.background{
+    background-image: url(gamepad.png);
+    background-repeat: no-repeat;
+    background-position: right 15% top;
+}
+header{
+    display: flex;
+    height: 70px;
+    
+}
 .logo{
     font-size: 29px;
+    width: 48%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 52%;
+    height: 50px;
+    margin-top: 1%;
+    font-size: 16px;
+}
+.half-border{
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgba(220, 112, 0, 1) 50%, transparent 50%) 100% 1;
+}
+.header-menu a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding-left: 1%;
+}
+a.contact-btn{
+    display: flex;
+    align-items: center;
+    background-color: rgba(250, 144, 33, 1);
+    width: 15%;
+    height: 75%;
+    padding: 0;
+    border-radius: 7px;
+    border: 5px solid rgba(250, 144, 33, 1);
+    transition: ease 0.3s;
+}
+a.contact-btn:hover{
+    background-color: rgba(57, 40, 159, 1);
+    transition: ease 0.3s;
+}
+.main-info{
+    width: 28%;
+    margin-left: 9%;
+    margin-top: 8%;
+    height: 600px;
+}
+.color-orange{
+    color: rgba(232, 125, 14, 1);
+}
+.size-50{
+    font-size: 50px;
+}
+.main-info p{
+    margin-top: 30px;
+}
+.main-info h4{
+    line-height: 40px;
+}
+.main-info a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 195px;
+    height: 50px;
+    border: 5px solid rgba(250, 131, 5, 1);
+    background-color: rgba(250, 131, 5, 1);
+    transition: ease 0.3s;
+}
+.main-info a:hover{
+    background-color: rgba(57, 40, 159, 1);
+    transition: ease 0.3s;
 }
