@@ -172,7 +172,7 @@ a.contact-btn:hover{
 }
 .cards button{
     border: none;
-    background: url('bookmark-plus.svg') no-repeat center;
+    background: url('img/bookmark-plus.svg') no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -185,16 +185,16 @@ a.contact-btn:hover{
 }
 .cards button:hover{
     transition: ease 0.3s;
-    background: url('bookmark-plus-fill.svg') no-repeat center;
+    background: url('img/bookmark-plus-fill.svg') no-repeat center;
     background-size: cover;
 }
 .cards button:focus{
-    background: url('bookmark-plus-fill.svg') no-repeat center;
+    background: url('img/bookmark-plus-fill.svg') no-repeat center;
     background-size: cover; 
 }
 .fortnite{
     transition: ease 0.2s;
-    background: url('fortnite.avif') center no-repeat;
+    background: url('img/fortnite.avif') center no-repeat;
     background-size: cover;
 }
 .fortnite:hover .container{
@@ -205,18 +205,18 @@ a.contact-btn:hover{
     margin-bottom: 15px;
 }
 .fortnite:hover{
-    background: url('fortnite-effect.png') no-repeat center;
+    background: url('img/fortnite-effect.png') no-repeat center;
     background-size: cover;
     transition: ease 0.3s;
 }
 .stalker{
     transition: ease 0.2s;
-    background: url('stalker.webp') no-repeat center;
+    background: url('img/stalker.webp') no-repeat center;
     background-size: cover;
 }
 .stalker:hover{
     transition: ease 0.3s;
-    background: url('stalker-effect.png') no-repeat center;
+    background: url('img/stalker-effect.png') no-repeat center;
     background-size: cover;
 }
 .stalker:hover .container{
@@ -228,12 +228,12 @@ a.contact-btn:hover{
 }
 .metro{
     transition: ease 0.2s;
-    background: url('metro.jpg') center no-repeat;
+    background: url('img/metro.jpg') center no-repeat;
     background-size: cover;
 }
 .metro:hover{
     transition: ease 0.3s;
-    background: url('metro-effect.png') no-repeat center;
+    background: url('img/metro-effect.png') no-repeat center;
     background-size: cover;
 }
 .metro:hover .container{
@@ -245,12 +245,12 @@ a.contact-btn:hover{
 }
 .minecraft{
     transition: ease 0.2s;
-    background: url('minecraft.webp') no-repeat center;
+    background: url('img/minecraft.webp') no-repeat center;
     background-size: cover;
 }
 .minecraft:hover{
     transition: ease 0.3s;
-    background: url('minecraft-effect.png') no-repeat center;
+    background: url('img/minecraft-effect.png') no-repeat center;
     background-size: cover;
 }
 .minecraft:hover .container{
