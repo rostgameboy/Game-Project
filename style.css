@@ -12,7 +12,7 @@ a{
     color: white;
 }
 .background{
-    background-image: url(gamepad.png);
+    background-image: url('img/gamepad.png');
     background-repeat: no-repeat;
     background-position: right 100px top;
 }
