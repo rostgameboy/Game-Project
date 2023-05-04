@@ -117,7 +117,7 @@ a.contact-btn:hover{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 1200px;
+    height: 1400px;
 }
 .tranding-first{
     display: flex;
@@ -125,20 +125,21 @@ a.contact-btn:hover{
     width: 80%;
     height: 10%;
 }
-.tranding-first a{
+.SEE-ALL{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 21px;
-    width: 8%;
-    height: 100%;
+    width: 122px;
+    height: 48px;
     background-color: rgba(255, 255, 255, 0.11);
     border-radius: 6px;
     transition: ease 0.3s;
 }
-.tranding-first a:hover{
+.SEE-ALL:hover{
     background-color: rgba(255, 255, 255, 0.4);
     transition: ease 0.3s;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 54px 200px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
 }
 .tranding-second{
     display: flex;
@@ -268,6 +269,7 @@ a.contact-btn:hover{
     width: 45%;
     text-align: center;
     margin-bottom: 75px;
+    margin-top: 175px;
 }
 .tranding img{
     width: 65%;
@@ -300,6 +302,11 @@ a.contact-btn:hover{
 .grid div{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: ease 3s;
+}
+.grid div:hover{
+    box-shadow: rgb(34, 3, 209) 0px 54px 200px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: ease 0.2s;
 }
 .box-size1{
     width: 400px;
@@ -352,4 +359,64 @@ a.contact-btn:hover{
     background-size: cover;
     grid-column: 4 / 4;
     grid-row: 2;
+}
+.projects .SEE-ALL{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.subscribe{
+    width: 65%;
+    margin: auto;
+}
+.subscribe h4{
+    width: 600px;
+    margin-top: 30px;
+}
+.js-sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(28, 20, 15, 1);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+.left-side{
+    width: 50%;
+}
+.left-side h1{
+    margin-bottom: 20px;
+}
+.left-side h4{
+    width: 500px;
+}
+.js-sub input{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 20px;
+}
+.right-side div{
+    background-color: white;
+    border-radius: 8px;
+}
+.right-side button{
+    margin: 10px;
+    background-color: rgba(220, 112, 0, 1);
+    text-align: center;
+    border: none;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+.js-sub input:focus{
+    outline: none;
+}
+footer{
+    background-color: rgba(0, 0, 0, 1);
 }
