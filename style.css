@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     color: white;
@@ -51,6 +52,7 @@ a{
 }
 header{
     display: flex;
+    justify-content: space-between;
     height: 70px;
 }
 header .menu-btn{
@@ -111,6 +113,67 @@ a.contact-btn{
 a.contact-btn:hover{
     background-color: rgba(57, 40, 159, 1);
     transition: ease 0.3s;
+}
+@keyframes top-line{
+    100%{
+        transform: rotate(55deg) translateX(10px) translateY(-32px) scale(0.9);
+    }
+}
+@keyframes middle-line{
+    100%{
+        transform: rotate(-55deg) translateX(-30px) translateY(4px) scale(0.9);
+    }
+}
+@keyframes bottom-line{
+    100%{
+        transform: translateX(3px) translateY(5px) scale(0.9);
+    }
+}
+@keyframes top-lineRE{
+    from{
+        transform: rotate(55deg) translateX(10px) translateY(-32px) scale(0.9);
+    }
+}
+@keyframes middle-lineRE{
+    from{
+        transform: rotate(-55deg) translateX(-30px) translateY(4px) scale(0.9);
+    }
+}
+@keyframes bottom-lineRE{
+    from{
+        transform: translateX(3px) translateY(5px) scale(0.9);
+    }
+}
+.menu-catalog{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(250, 144, 33, 1);
+    border-radius: 5px;
+}
+#top-line{
+    animation: top-lineRE 0.5s both;
+}
+#middle-line{
+    animation: middle-lineRE 0.5s both;
+}
+#bottom-line{
+    animation: bottom-lineRE 0.5s both;
+}
+.menu-catalog:hover #top-line{
+    animation-name: top-line;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.menu-catalog:hover #middle-line{
+    animation-name: middle-line;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+.menu-catalog:hover #bottom-line{
+    animation-name: bottom-line;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
 }
 .main-info{
     width: 28%;
@@ -302,7 +365,7 @@ a.contact-btn:hover{
     display: grid;
     grid-gap: 60px;
     grid-template-columns: 250px 90px 255px 85px;
-    width: 69.5%;
+    width: 87%;
     margin: auto;
 }
 .grid div{
@@ -470,4 +533,23 @@ footer .bottom{
 }
 .meme:visited{
     cursor: auto;
+}
+@media only screen and (min-width: 200px) and (max-width: 500px){
+    .logo{
+        margin: 10px;
+        width: 110px;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .menu-catalog{
+        display: flex;
+        justify-content: center;
+    }
+    .header-menu{
+        width: 50%;
+    }
+    a.contact-btn{
+        width: 50%;
+    }
 }
